@@ -18,4 +18,10 @@ public class BreweryController {
     public void importBreweries() {
         breweryService.importBreweries();
     }
+
+    @RequestMapping("/print")
+    @ResponseStatus(HttpStatus.OK)
+    public void printInformation() {
+        breweryService.printInformation();
+    }
 }

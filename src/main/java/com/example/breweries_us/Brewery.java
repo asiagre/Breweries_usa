@@ -6,14 +6,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.sql.Blob;
 
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Builder
-public class Brewery {
+class Brewery {
 
     @Id
     @GeneratedValue
